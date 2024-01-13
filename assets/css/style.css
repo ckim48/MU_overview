@@ -6,6 +6,37 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
+  #carouselSWE {
+    height: 300px; /* Adjust the height as needed */
+    width: 100%; /* Make it responsive */
+  }
+.carousel2{
+  width: 500px;
+  height: 450px; /* Adjust the height as needed */
+  overflow: hidden; /* Hide any overflow if images are larger than the container */
+}
+.carousel-item iframe {
+  border: 1px solid white;
+  width: 100%; /* Make sure the image width spans the container */
+  height: 350px;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+.carousel-item img {
+  border: 1px solid white;
+  width: 100%; /* Make sure the image width spans the container */
+  height: 100%; /* Make sure the image height spans the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+.sweimg{
+width:40% !important;
+}
+.carousel-item:not(.active) {
+  display: none !important; /* Hide non-active items */
+}
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black;
+  }
 .section-subtitle h2 {
   font-size: 30px;
   font-weight: bold;
