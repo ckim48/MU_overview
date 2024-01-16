@@ -34,6 +34,18 @@ body {
 .sweimg{
 width:40% !important;
 }
+.spaces{
+
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+
+.bigmargin2{
+
+  margin-top: 160px;
+
+}
 .carousel-item:not(.active) {
   display: none !important; /* Hide non-active items */
 }
