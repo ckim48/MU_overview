@@ -21,8 +21,8 @@ body {
 }
 .carousel-item iframe {
   border: 1px solid white;
-  width: 100%; /* Make sure the image width spans the container */
-  height: 350px;
+  width: 550px; /* Make sure the image width spans the container */
+  height: 300px;
   object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
 .carousel-item img {
@@ -656,6 +656,43 @@ section {
     display: inline-block;
   }
 }
+/*.about {
+  background: url("../img/about-bg2.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.75);
+  z-index: 9;
+}
+*/
+.client .container {
+  position: relative;
+  z-index: 10;
+}
+
+.client .content {
+  padding: 30px 30px 30px 0;
+}
+
+.client .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #2f4d5a;
+  margin-bottom: 30px;
+}
+
+.client .content p {
+  margin-bottom: 30px;
+}
 
 /*--------------------------------------------------------------
 # About
@@ -784,7 +821,41 @@ section {
     text-align: center;
   }
 }
+video{
+  border: 2px solid #E7A882 !important;
+  border-radius: 10px;
+}
+.btn-primary{
+background: white !important;
+border: 1px solid #E7A882 !important;
+color:black !important;
 
+}
+.myimg{
+  width: 570px;
+   height: 360px;
+}
+.btn-primary:hover{
+
+  background: #E7A882 !important;
+
+  color:white !important;
+}
+.activeBTN{
+    background: #E7A882 !important;
+
+  color:white !important;
+}
+.activeBTN2{
+    background: #E7A882 !important;
+
+  color:white !important;
+}
+.activeBTN3{
+    background: #E7A882 !important;
+
+  color:white !important;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -1213,7 +1284,9 @@ section {
   margin-bottom: 80px;
   position: relative;
 }
-
+.team h5{
+  font-weight: 700;
+}
 .team .member .pic {
   overflow: hidden;
 }
@@ -1278,6 +1351,37 @@ section {
 .team .member .social i {
   font-size: 16px;
   margin: 0 2px;
+}
+
+@media (max-width: 992px) {
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #videoPlayer3 {
+    width: 100%;
+    max-width: 595px; /* Adjust the max-width as needed */
+    height: auto;
+  }
+
+    #videoPlayer2 {
+    width: 100%;
+    max-width: 350px; /* Adjust the max-width as needed */
+    height: auto;
+  }
+  #uivideo{
+        width: 100%;
+    max-width: 595px; /* Adjust the max-width as needed */
+    height: auto;
+  }
+  #videoPlayermc{
+            width: 100%;
+    max-width: 495px; /* Adjust the max-width as needed */
+    height: 400;
+  }
 }
 
 @media (max-width: 992px) {
