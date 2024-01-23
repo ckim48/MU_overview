@@ -63,7 +63,7 @@
     <div class="hero-container" data-aos="fade-up">
       <h1>Project MU</h1>
       <h2>Internship Program with the Museum of Japanese Colonial History in Korea</h2>
-      <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
+      <a href="#client" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
     </div>
   </section><!-- End Hero -->
 
@@ -79,7 +79,7 @@
             <div class="content">
               <h3>About Client</h3>
               <p>
-                The Museum of Japanese Colonial History in Korea is the first museum to specialize in documenting and exhibiting the history of the anti-Japanese struggle during the Japanese colonial era. It aims to lead in overcoming the present-day Japanese colonial remnants and the divisional system of Korea to promote peace in East Asia and relies on the donations and donated data from citizens and overseas Koreans.
+                The Museum of Japanese Colonial History in Korea is the first museum to specialize in documenting and exhibiting the history of the anti-Japanese struggle during the Japanese colonial era. It aims to lead in overcoming the present-day Japanese colonial remnants and the divisional system of Korea to promote peace in East Asia and relies on donations and donated data from citizens and overseas Koreans.
 
 </p>
 
@@ -203,7 +203,7 @@
               <li>Back-end Development: Develop a centralized database for registering users and adding information such as exhibition captions and recordings to the MU mobile application.</li>
 
             </ul>
-              <a href="https://capstone- fall2023.notion.site/5c88d85f79ff4da9b9c6834d8bd8e38a?v=f995ef7c5f3241fb84ca34600fb88ca6" class="about-btn mb-5">Learn More <i class="bx bx-chevron-right"></i></a>
+              <a href="https://capstone-fall2023.notion.site/5c88d85f79ff4da9b9c6834d8bd8e38a?v=f995ef7c5f3241fb84ca34600fb88ca6" class="about-btn mb-5">Learn More <i class="bx bx-chevron-right"></i></a>
 
 
           </div>
@@ -307,7 +307,7 @@ The museum application encompasses exhibition translations, videos on the histor
                         </p>
                                     <h5>Goals</h5>
                         <ul class="mb-4">
-            <li class="mb-2">Learning how to used essential design software like Adobe premiere and After Effects to create an introductory video for a historical building</li>
+            <li class="mb-2">Learning how to use essential design software like Adobe Premiere and After Effects to create an introductory video for a historical building.</li>
               <li>Demonstrating the history of the selected historical building from the colonial era through the video.</li>
 
             </ul>
@@ -420,9 +420,9 @@ The museum application encompasses exhibition translations, videos on the histor
   // Set the initially active button
   document.getElementById('recommendationBtn').classList.add('activeBTN');
 
-  var videoPlayer = document.getElementById('videoPlayer');
+  var videoPlayer = document.getElementById('videoPlayermc');
   var recommendationBtn = document.getElementById('recommendationBtn');
-  var dashboardBtn = document.getElementById('dashboardBtn');
+  var dashboardBtn7 = document.getElementById('dashboardBtn');
 
   function changeVideo(videoPath) {
     // Change video source
@@ -434,12 +434,12 @@ The museum application encompasses exhibition translations, videos on the histor
 
     // Update button styles
     recommendationBtn.classList.remove('activeBTN');
-    dashboardBtn.classList.remove('activeBTN');
+    dashboardBtn7.classList.remove('activeBTN');
 
     if (videoPath === 'assets/img/mc1.mp4') {
       recommendationBtn.classList.add('activeBTN');
     } else if (videoPath === 'assets/img/mc2.mp4') {
-      dashboardBtn.classList.add('activeBTN');
+      dashboardBtn7.classList.add('activeBTN');
     }
   }
 
